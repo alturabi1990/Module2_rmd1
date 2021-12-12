@@ -3,8 +3,8 @@ title: "Module2 - R Markdown Document-1"
 author: "Elhami A.A. Ahmed"
 date: "12/11/2021"
 output:
-  html_document: default
   word_document: default
+  html_document: default
   pdf_document: default
 ---
 
@@ -127,4 +127,18 @@ $$  y = \beta_0 + \beta_1x$$
 
 
 
+## insert image 
 
+Here is an image inserted 
+
+![sunstar](sunstar.png)
+
+
+## insert text with some footnotes
+
+here is reference footnote [^1] and another [^longnote]
+
+Here is an inline footnote ^[inline note are easier to write, since no need to pick an identifier ]
+
+[^1]: here is the footnote
+[^longnote]: here is one with multiple blocks
